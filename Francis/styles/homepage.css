@@ -1,0 +1,80 @@
+/* Hero section styles */
+.hero-section {
+    background-image: url(../images/background/background.jpg);
+    padding: 100px;
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    padding: 1px 10px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width:  561px;
+    border-radius: 5px;
+}
+
+
+.hero-section > .bottom-heading {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 230px;
+    border-radius: 2px;
+}
+
+/* Features section styles */
+.features-section {
+    height: 400px;
+    background-image: url(../images/background/handsome-scientist-white-coat-touching.jpg);
+    background-color: #cea135;
+    border-top: 10px solid #fff;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    margin-top: 42px;
+    margin-right: 42px;
+    margin-bottom: 42px;
+    margin-left: -75px;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #11122b;
+}
+
+.features-section > .columns-wrapper > .column:nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column:nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:nth-child(3) {
+    font-size: 1em;
+}
